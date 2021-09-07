@@ -60,3 +60,9 @@
   }
 }
 </style>
+<script lang='ts'>
+import Logo from '~/components/atoms/Logo'
+export default {
+  components: { Logo }
+}
+</script>
