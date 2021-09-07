@@ -1,5 +1,6 @@
 <template>
   <div class='ibook-layout'>
+    <Header/>
     <Container>
       <Nuxt/>
     </Container>
@@ -25,7 +26,8 @@
 </style>
 <script>
 import Container from '@/components/bosons/Container'
+import Header from '@/components/organisms/Header'
 export default {
-  components: { Container }
+  components: { Header, Container }
 }
 </script>
