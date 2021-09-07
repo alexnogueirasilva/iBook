@@ -1,11 +1,13 @@
 <template>
-  <div class="box"></div>
+  <div class="box">
+    <h1> Home Page</h1>
+  </div>
 </template>
 
-<style lang="scss" scoped>
-.box {
-  width: 300px;
-  height: 300px;
-  background-color: color('dark', 'darkest');
-}
-</style>
+<script lang='ts'>
+import Vue from 'vue'
+
+ export default Vue.extend({
+   layout: 'ibook'
+ })
+</script>
