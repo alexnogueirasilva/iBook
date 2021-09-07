@@ -4,6 +4,7 @@
     <Container>
       <Nuxt/>
     </Container>
+    <Footer/>
   </div>
 </template>
 
@@ -24,10 +25,11 @@
   }
 }
 </style>
-<script>
+<script lang='ts'>
 import Container from '@/components/bosons/Container'
 import Header from '@/components/organisms/Header'
+import Footer from '@/components/organisms/Footer'
 export default {
-  components: { Header, Container }
+  components: { Footer, Header, Container }
 }
 </script>
