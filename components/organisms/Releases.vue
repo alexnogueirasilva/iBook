@@ -1,12 +1,10 @@
 <template>
-  <div class='releases'></div>
-</template>
+  <div class='releases'>
+    <h2>Lançamentos</h2>
 
-<script>
-export default {
-  name: 'Releases'
-}
-</script>
+    <BookList/>
+  </div>
+</template>
 
 <style lang='scss' scoped>
 .releases {
@@ -20,3 +18,9 @@ export default {
   }
 }
 </style>
+<script>
+import BookList from '@/components/organisms/BookList'
+export default {
+  components: { BookList }
+}
+</script>
