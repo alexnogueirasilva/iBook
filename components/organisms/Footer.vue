@@ -1,30 +1,31 @@
 <template>
   <footer class='footer'>
-    <container>
+    <Container>
       <Logo/>
       <p>Copyright &copy; {{ currentYear }} iBook</p>
-    </container>
+    </Container>
   </footer>
 </template>
 
 <script lang='ts'>
-import Container from '@/components/bosons/Container'
-import Logo from '@/components/atoms/Logo'
-export default {
+import Vue from 'vue'
+import Container from '~/components/bosons/Container.vue'
+import Logo from '~/components/atoms/Logo.vue'
+export default Vue.extend({
   components: { Logo, Container },
   computed:{
     currentYear(){
       return new Date().getFullYear()
     }
   }
-}
+})
 </script>
 
 <style lang='scss' scoped>
 .footer {
   width: 100%;
   height: 110px;
-  background: color('dark', 'darkest');
+  background: color(dark, darkest);
   .container {
     display: grid;
     height: 100%;
