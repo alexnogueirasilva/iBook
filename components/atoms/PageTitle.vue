@@ -22,7 +22,7 @@ export default Vue.extend({
 
 </script>
 
-<style scoped>
+<style lang='scss' scoped>
 .page-title {
   text-align: center;
   font-size: 2.5rem;
