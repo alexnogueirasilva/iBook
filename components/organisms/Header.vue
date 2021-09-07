@@ -61,7 +61,7 @@
 }
 </style>
 <script lang='ts'>
-import Logo from '~/components/atoms/Logo'
+import Logo from '~/components/atoms/Logo.vue'
 export default {
   components: { Logo }
 }

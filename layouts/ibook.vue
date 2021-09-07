@@ -27,9 +27,9 @@
 </style>
 <script lang='ts'>
 import Vue from 'vue'
-import Container from '~/components/bosons/Container'
-import Header from '~/components/organisms/Header'
-import Footer from '~/components/organisms/Footer'
+import Container from '~/components/bosons/Container.vue'
+import Header from '~/components/organisms/Header.vue'
+import Footer from '~/components/organisms/Footer.vue'
 export default Vue.extend({
   components: { Footer, Header, Container }
 })
